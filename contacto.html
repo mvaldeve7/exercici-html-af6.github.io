@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prácticas de FHiC - Galoisfera</title>
+    <link rel="stylesheet" href="./contacto.css" />
+  </head>
+  <body>
+    <header class="menu_navegacion">
+        <img src="./img/logoFHiC.png" alt="Logo" width="60" height="60" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="nosotros.html">Membres</a></li>
+            <li><a href="proyecto.html">Projecte Web</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Necessitem la teva opinió!</h2>
+        <h3>Ens encantaria saber què opines sobre la nostra pàgina web</h3>
+        <div class="flex_box">
+          <section class="formulari">
+            <form>
+              <ul>
+                <li><label for="nom_alumne">Nom</label>
+                <input type="text" id="nom_alumne" name="nom_alumne" placeholder="El teu nom"></li>
+    
+                <li><label for="correu_usuari">Correu electrònic:</label>
+                <input type="text" id="correu_usuari" name="correu_usuari" placeholder="Correu de la facultat"></li>
+    
+                <li><label for="opinio">La teva opinió:</label>
+                <textarea id="opinio" name="opinio" rows="5" placeholder="Escriu la teva opinió aquí"></textarea>
+    
+                <li><label for="puntacio">Puntua'ns de l'1 al 5:</label>
+                <select name="puntuacio">
+                  <option value="" selected disabled hidden>Escull la puntuació desitjada</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select></li>
+                
+              </ul>
+              <input type="submit" value="Enviar" />
+            </form>
+          </section>
+          <section class="contacte">
+            <h3>Principis de disseny del formulari</h3>
+            <ul>
+              <li>En primer lloc, com que el formulari només té una sola columna és més fàcil per l'usuari completar-lo.</li>
+              <li>En segon lloc, el nostre formulari només demana la informació estrictament necessària i, en conseqüència, 
+                hem minimitzat al màxim el nombre de input fields. A més a més, no hem utilitzat cap optional field perquè
+                considerem que en aquest cas és irrellevant.</li>
+              <li>Finalment, en els desplegables hem optat per no tenir una opció 
+                seleccionada de manera predeterminada perquè evitar els defaut setting és un bon principi de disseny que 
+                aconsegueix evitar que l'usuari seleccioni l'opció predefinida sense ser-ne conscient.</li>    
+            </ul>
+          </section>
+        </div>
+    </main>
+    <footer id="footer">
+        <p>Copyright &copy; FHiC 23-24 - Galoisfera</p>
+    </footer>
+</html>
