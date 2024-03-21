@@ -52,53 +52,66 @@ header {
     text-align: center;
     text-decoration: underline;
   }
-  /*Flex box inici*/
-  .flex_box {
-    display: flex;
-    gap: 20px;
-  }
   
-  .flex_box aside {
+  .titol{
+    margin-top: 1rem;
+  }
+
+  .introduccio{
+    margin-top: 1rem;
+  }
+
+  .intro{
     border: 2px solid;
     border-color: rgb(147, 207, 209);
-    flex: 1;
-    max-width: 15%;
-    text-align: center;
+    /*flex: 1;*/
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
-  
-  .flex_box aside ul {
-    padding: 0;
-    list-style-type: none;
+
+  .membres{
+    margin-top: 2rem;
   }
-  
-  .flex_box aside ul li {
-    padding: 10px;
-  }
-  
-  .flex_box figure {
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  
-  .flex_box aside p {
-    text-align: center;
-    padding: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  .flex_box section {
+
+  .mem1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border: 2px solid;
     border-color: rgb(147, 207, 209);
-    flex: 1;
-  } 
-  
-  #footer {
+  }
+
+  .mem2{
+    border: 2px solid;
+    border-color: rgb(147, 207, 209);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .mem3{
+    border: 2px solid;
+    border-color: rgb(147, 207, 209);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .mem4{
+    border: 2px solid;
+    border-color: rgb(147, 207, 209);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  footer {
     width: 100%;
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    z-index: 10;
     background-color: rgb(147, 207, 209);
+    margin-top: 2rem;
+    position: sticky;
   }

@@ -1,5 +1,5 @@
 /*HEADER*/
-header {
+  header {
     background-color: rgb(147, 207, 209);
     padding: 10px;
     align-items: center;
@@ -32,6 +32,8 @@ header {
   /*MAIN*/
   h1 {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   h2 {
@@ -52,57 +54,44 @@ header {
     text-align: center;
     text-decoration: underline;
   }
-  /*Flex box inici*/
-  .flex_box {
-    display: flex;
-    gap: 20px;
+
+  .columna {
+    text-align: center;
   }
-  
-  .flex_box aside {
+
+  aside {
     border: 2px solid;
     border-color: rgb(147, 207, 209);
     flex: 1;
-    max-width: 15%;
-    text-align: center;
+    margin: 0.5rem;
+    height: 100%;
   }
   
-  .flex_box aside ul {
+  aside ul {
     padding: 0;
     list-style-type: none;
   }
   
-  .flex_box aside ul li {
-    padding: 10px;
+  aside ul li {
+    list-style: none;
   }
-  
-  .flex_box figure {
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  
-  .flex_box aside p {
-    text-align: center;
-    padding: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  .flex_box section {
+
+  section {
     border: 2px solid;
     border-color: rgb(147, 207, 209);
     flex: 1;
+    text-align: center;
+    margin: 0.5rem;
+    height: 100%;
   }
-  
-  .contacte {
-    max-width: 20%;
+
+  section figure {
+    margin: 1rem;
   }
-  
-  #footer {
+
+  footer {
     width: 100%;
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    z-index: 10;
     background-color: rgb(147, 207, 209);
+    margin-top: 2rem;
+    position: sticky;
   }

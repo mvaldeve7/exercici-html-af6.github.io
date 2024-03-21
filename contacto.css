@@ -1,139 +1,156 @@
 /*HEADER*/
 header {
-    background-color: rgb(147, 207, 209);
-    padding: 10px;
-    align-items: center;
-    font-size: larger;
-  }
-  
-  .menu_navegacion {
-    display: flex;
-  }
-  
-  .menu_navegacion ul {
-    list-style-type: none;
-    padding-left: 30px;
-  }
-  
-  .menu_navegacion ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .menu_navegacion a {
-    text-decoration: none;
-  }
-  
-  .menu_navegacion a:hover {
-    text-decoration: underline;
-    color:aliceblue;
-  }
-  
-  /*MAIN*/
-  main {
-    overflow: auto;
-  }
+  background-color: rgb(147, 207, 209);
+  padding: 10px;
+  align-items: center;
+  font-size: larger;
+}
 
-  h1 {
-    text-align: center;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  p {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: justify;
-  }
-  
-  figure {
-    text-align: center;
-  }
-  
-  h3 {
-    text-align: center;
-    text-decoration: underline;
-  }
- 
-  /* Estils per al formulari */
+.menu_navegacion {
+  display: flex;
+}
+
+.menu_navegacion ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+.menu_navegacion ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu_navegacion a {
+  text-decoration: none;
+}
+
+.menu_navegacion a:hover {
+  text-decoration: underline;
+  color:aliceblue;
+}
+
+/*MAIN*/
+main {
+  overflow: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+figure {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Estils per al formulari */
 form {
-    display: block;
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-    border: 2px solid rgb(147, 207, 209);
-    border-radius: 10px;
-  }
-  
-  form ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  form li {
-    margin-bottom: 15px;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  form input[type="text"] {
-    width: 100%;
-  }
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid rgb(147, 207, 209);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
 
-  textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px; /* Espaiat inferior per separar els camps */
-  }
+form ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-  /* Flex box inici */
-  .flex_box {
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente los elementos dentro del contenedor */
-    gap: 0px;
-  }
-  
-  .flex_box section {
-    flex: 1;
-    max-width: 50%; /* Máximo ancho de las secciones */
-  }
+form li {
+  margin-bottom: 15px;
+}
 
-  form select {
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  form input[type="submit"] {
-    background-color: rgb(147, 207, 209);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: block; /* Mostra el botó com a bloc per centrar-lo */
-    margin: 0 auto; /* Ajusta els marges per centrar el botó */
-  }
-  
-  form input[type="submit"]:hover {
-    background-color: rgb(119, 176, 178);
-  }
-  
-  .contacte {
-    max-width: 20%;
-  }
-  
-  #footer {
-    width: 100%;
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    z-index: 10;
-    background-color: rgb(147, 207, 209);
-  }
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"] {
+  width: 100%;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px; /* Espaiat inferior per separar els camps */
+}
+
+/* Flex box inici */
+.flex_box {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente los elementos dentro del contenedor */
+  gap: 0px;
+}
+
+.flex_box section {
+  flex: 1;
+  max-width: 50%; /* Máximo ancho de las secciones */
+}
+
+form select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  background-color: rgb(147, 207, 209);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Mostra el botó com a bloc per centrar-lo */
+  margin: 0 auto; /* Ajusta els marges per centrar el botó */
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(119, 176, 178);
+}
+
+.contacte {
+  max-width: 20%;
+}
+
+.main_object{
+  margin: 2rem 0;
+}
+
+.formulari_contacte{
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.principis_disseny{
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+
+#footer {
+  width: 100%;
+  bottom: 0; 
+  left: 0; 
+  z-index: 10;
+  background-color: rgb(147, 207, 209);
+}
